@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+}
+body::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/pexels-thirdman-7257816.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    filter: blur(4px);
+    z-index: -1;
+
+}
+.nav-item a:hover{
+    font-size: large;
+    color: coral;
+    font-weight: 600;
+}
+.nav-item{
+    position: relative;
+}
+
+
+.nav-item1{
+    font-size: large;
+    color: aqua;
+}
+.welcome, .cname, .type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-md-4{
+    box-shadow: 16px 14px 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.company{
+    padding-top: 50px;
+}
+.cname, .type{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgba(139, 0, 72, 0.999);
+}
+.welcome{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

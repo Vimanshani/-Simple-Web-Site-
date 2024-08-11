@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row1{
+   display: flex;
+}
+.col-sm-2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.ima1details{
+    padding-top: 10px;
+}
